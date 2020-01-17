@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	 
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet"  href="styles/index.css"/>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="top">
+			<div class="logo">Амазонка</div>
+			<ul class="nav">
+				<li class="nav_item">
+					<a class="nav__link" href="#"> Каталог товаров</a></li>
+				<li class="nav_item">
+					<a class="nav__link" href="#"> Категории</a></li>
+				<li class="nav_item">
+					<a class="nav__link" href="#"> Отзывы</a></li>
+				<li class="nav_item">
+					<a class="nav__link" href="#"> Контакты</a></li>
+			</ul>
+			<a href="tel: +78002503020" class="phone">8 800 250 30 20</a>
+		</div>
+		<div class="header-content">
+			<div class="header-content__text">
+				<h1 class="header-content__title">Лучшие костыли для вашего кода</h1>
+				<p class="header-content__description">Не придумывайте велосипед, мы за вас сделали костыли — *используйте их, это почти бесплатно</p>
+				<button class="button button--shadow">Выбрать костыль</button>
+			</div>
+				<img class="header-content__image" src="img/image.png" alt="">
+		</div>
+		</div>
+	</header>
+	<section class="section">
+		<div class="container">
+			<h2 class="section__title">Каталог товаров</h2>
+			<div class="cards goods">
+				<div class="card goods__card">
+					<img src="img/image%202-1.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Свой собственный слайдер на чистом JS</h3>
+						<strong class="card__price">590.</strong>
+					</div>
+					<button class="button card__button">Купить костыль</button>
+				</div>
+				<div class="card goods__card">
+					<img src="img/image%202-2.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Всплывающее окно без использования JS</h3>
+						<strong class="card__price">390.</strong>
+					</div>					
+					<button class="button card__button">Купить костыль</button>
+				</div>
+				<div class="card goods__card">
+					<img src="img/image%202.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Табы, меню и аккордеон на чистом CSS с тостера</h3>
+						<strong class="card__price">690.</strong>
+					</div>
+					<button class="button card__button">Купить костыль</button>
+				</div>
+				<div class="card goods__card">
+					<img src="img/image%202-1.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Галерея во всплывающем окне на трех библиотеках</h3>
+						<strong class="card__price">590.</strong>
+					</div>
+					<button class="button card__button">Купить костыль</button>
+				</div>
+				<div class="card goods__card">
+					<img src="img/image%202-2.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Скрипт отправки данных
+							на email со stackoverflow</h3>
+						<strong class="card__price">590.</strong>
+					</div>
+					<button class="button card__button">Купить костыль</button>
+				</div>
+				<div class="card goods__card">
+					<img src="img/image%202.png" class="card__image">
+					<div class="card__text">
+						<h3 class="card__title">Ванильный тултип перекрывающий контент</h3>
+						<strong class="card__price">590.</strong>
+					</div>
+					<button class="button card__button">Купить костыль</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<h2 class="section__title">Отзывы клиентов</h2>
+			<div class="review-cards">
+				<div class="review-card">
+					<img src="img/avatar/image%202.png" class="review-card__image">
+					<h4 class="review-card__title">Юля, 24 года</h4>
+					<p class="review-card__text">Очень удобно пользоваться готовыми костылями и не искать их по сети, спасибо!</p>
+				</div>
+				<div class="review-card">
+					<img src="img/avatar/image%202-1.png" class="review-card__image">
+					<h4 class="review-card__title">Егор, 16 лет</h4>
+					<p class="review-card__text">Спасибо за костыли, не пришлось придумывать велосипед, сэкономил время!</p>
+				</div>
+				<div class="review-card">
+					<img src="img/avatar/image%202-2.png" class="review-card__image">
+					<h4 class="review-card__title">Рами, 20 лет</h4>
+					<p class="review-card__text">Скачал костыль, установил в проект, вылез конфликт с другими костылями!</p>
+				</div>
+				<div class="review-card">
+					<img src="img/avatar/image%202-3.png" class="review-card__image">
+					<h4 class="review-card__title">Олег, 32 года</h4>
+					<p class="review-card__text">Всё интересно, но не понятно, хотел купить, но ничего не понял, спасибо</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer section contacts">
+		<div class="container">
+			<h2 class="section__title">Контакты</h2>
+			<div class="contact">
+				<div class="form">
+					<form action="#" class="contacts__form">
+						<div class="form__inputs">
+							<input type="text" class="input form__input" placeholder="Ваше имя">
+							<input type="email" class="input form__input" placeholder="Ваш email">
+						</div>
+						<textarea rows="10" class="input form__textarea" placeholder="Комментарий"></textarea>
+						<div class="form__buttons">
+							<button type="submit" class="button form_button"> Отправить заявку</button>
+							<div class="social">
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector-1.png" alt="" class="social__image"></a>
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector-2.png" alt="" class="social__image"></a>
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector-3.png" alt="" class="social__image"></a>
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector.png" alt="" class="social__image"></a>
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector-4.png" alt="" class="social__image"></a>
+								<a href="#" class="social__link">
+									<img src="img/social_link/Vector-5.png" alt="" class="social__image"></a>
+					</div>
+						</div>
+					</form>	
+					
+				</div>
+				<div class="map">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A42227ce30e9c8c0a27ba936c9017813f07ee93f0f8228a6f5430fb70023eb5e3&amp;source=constructor" width="100%" height="360" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
+	<script src="scripts/index.js"></script>
+
+</body>
+	
+</html>
